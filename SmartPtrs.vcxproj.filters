@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="PlayerObject">
+      <UniqueIdentifier>{cf0d7f54-7740-4834-89ac-5c08b207ab39}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main_init.cpp">
@@ -24,9 +27,24 @@
     <ClCompile Include="GameControl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="UmbrellaHeader.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>PlayerObject</Filter>
+    </ClCompile>
+    <ClCompile Include="player_init.cpp">
+      <Filter>PlayerObject</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="InputHandling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player_init.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

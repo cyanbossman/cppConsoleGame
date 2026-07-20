@@ -143,9 +143,14 @@
     <ClCompile Include="main_init.cpp" />
     <ClCompile Include="GameControl.cpp" />
     <ClCompile Include="InputHandling.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="player_init.cpp" />
+    <ClCompile Include="UmbrellaHeader.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="InputHandling.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="player_init.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
