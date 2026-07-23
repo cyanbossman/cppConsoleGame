@@ -12,3 +12,7 @@ void Player::CalculateStats(PlayerClass& playerclass) {
 	//Logic for additional modifiers planned
 	stats = playerclass.stats;
 };
+
+void Player::printInventory() {
+	inventory.printInventory();
+}

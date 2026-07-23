@@ -140,17 +140,29 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main_init.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="EnemyFactory.cpp" />
+    <ClCompile Include="Equipment.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="GameControl.cpp" />
     <ClCompile Include="InputHandling.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="player_init.cpp" />
     <ClCompile Include="UmbrellaHeader.h" />
+    <ClCompile Include="WeightedPool.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyFactory.h" />
+    <ClInclude Include="EnemyType.h" />
     <ClInclude Include="InputHandling.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="Item.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="player_init.h" />
+    <ClInclude Include="WeightedPool.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,6 +1,7 @@
 #pragma once
 #include<iostream>
 #include<array>
+#include "Inventory.h"
 
 const struct Stats {
 	int hp;
@@ -20,6 +21,8 @@ public:
 	std::string Name{};
 	Stats stats{};
 	PlayerClass playerclass{};
+	Inventory inventory;
 
 	void CalculateStats(PlayerClass& playerclass);
+	void printInventory();
 };

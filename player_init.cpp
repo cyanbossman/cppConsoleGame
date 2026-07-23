@@ -1,4 +1,5 @@
-#include "UmbrellaHeader.h"
+#include "player_init.h"
+#include "InputHandling.h"
 
 void initializePlayer(Player& player) {
 
@@ -32,5 +33,6 @@ void initializePlayer(Player& player) {
 	ClassChoice -= 1;
 	player.playerclass = Classes[ClassChoice];
 	BaseStats = Classes[ClassChoice].stats;
-	std::cout << "You have chosen to play as '" << player.playerclass.name << "', " << Name;
+	std::cout << "You have chosen to play as '" << player.playerclass.name << "', " << Name << "\n";
+	return;
 };
