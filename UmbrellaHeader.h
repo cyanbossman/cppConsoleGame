@@ -5,8 +5,5 @@
 #include "player_init.h"
 #include "Item.h"
 #include "Inventory.h"
+#include "SelectRandomRoom.h"
 
-
-//for testing of inventory system ONLY
-
-//#include "TestChest.h"

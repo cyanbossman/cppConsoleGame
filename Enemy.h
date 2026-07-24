@@ -4,7 +4,8 @@
 
 class Enemy {
 public:
-	std::string Name;
+	std::string name;
 	int hp;
-	int ATK;
+	int atk;
+	int weight;
 };

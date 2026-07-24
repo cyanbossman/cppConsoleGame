@@ -34,6 +34,9 @@
     <Filter Include="Enemy">
       <UniqueIdentifier>{5dbd93e6-8ec2-4a34-86d3-1e02d583079a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Room">
+      <UniqueIdentifier>{4ebab3e5-0772-4fec-90ed-7536d114bb52}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="InputHandling.cpp">
@@ -72,6 +75,15 @@
     <ClCompile Include="EnemyFactory.cpp">
       <Filter>Enemy</Filter>
     </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomData.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectRandomRoom.cpp">
+      <Filter>GameLoop</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player.h">
@@ -100,6 +112,15 @@
     </ClInclude>
     <ClInclude Include="EnemyFactory.h">
       <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomData.h">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectRandomRoom.h">
+      <Filter>GameLoop</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

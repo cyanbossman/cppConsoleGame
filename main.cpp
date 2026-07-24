@@ -12,7 +12,10 @@ int main() {
 	player.printInventory();
 
 	Enemy enemy = EnemyFactory::create(EnemyType::Goblin);
-	std::cout << enemy.Name;
+	std::cout << enemy.name << "\n";
 	
+	RoomData room = SelectRandomRoom();
+	std::cout << room.Name << "\n";
+
 	return 0;
 }
