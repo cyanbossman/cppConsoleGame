@@ -84,6 +84,9 @@
     <ClCompile Include="SelectRandomRoom.cpp">
       <Filter>GameLoop</Filter>
     </ClCompile>
+    <ClCompile Include="SelectRandomEnemy.cpp">
+      <Filter>GameLoop</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player.h">
@@ -120,6 +123,9 @@
       <Filter>Room</Filter>
     </ClInclude>
     <ClInclude Include="SelectRandomRoom.h">
+      <Filter>GameLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectRandomEnemy.h">
       <Filter>GameLoop</Filter>
     </ClInclude>
   </ItemGroup>

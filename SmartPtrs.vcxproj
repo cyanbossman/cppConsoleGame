@@ -152,6 +152,7 @@
     <ClCompile Include="player_init.cpp" />
     <ClCompile Include="Room.cpp" />
     <ClCompile Include="RoomData.cpp" />
+    <ClCompile Include="SelectRandomEnemy.cpp" />
     <ClCompile Include="SelectRandomRoom.cpp" />
     <ClCompile Include="UmbrellaHeader.h" />
     <ClCompile Include="WeightedPool.cpp" />
@@ -167,6 +168,7 @@
     <ClInclude Include="player_init.h" />
     <ClInclude Include="Room.h" />
     <ClInclude Include="RoomData.h" />
+    <ClInclude Include="SelectRandomEnemy.h" />
     <ClInclude Include="SelectRandomRoom.h" />
     <ClInclude Include="WeightedPool.h" />
   </ItemGroup>

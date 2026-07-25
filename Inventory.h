@@ -13,6 +13,6 @@ public:
 	std::unique_ptr<Item> removeItem(std::size_t index);
 
 private:
-	std::array<std::unique_ptr<Item>, 20>inventorySlots;
+	std::array<std::unique_ptr<Item>, 10>inventorySlots;
 
 };

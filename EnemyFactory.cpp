@@ -2,6 +2,7 @@
 #include<stdexcept>
 
 //Forced to make a namespace, look into it
+//Refactor to the same factory pattern as room, easier to extend than big switch case
 namespace EnemyFactory {
 	Enemy EnemyFactory::create(EnemyType type) {
 		switch (type) {
