@@ -37,6 +37,12 @@
     <Filter Include="Room">
       <UniqueIdentifier>{4ebab3e5-0772-4fec-90ed-7536d114bb52}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GameLoop\GenerateRoom">
+      <UniqueIdentifier>{2a184f27-4fd5-43df-a07d-30ee0be9dfd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLoop\BattleMechanic">
+      <UniqueIdentifier>{5c77a5ed-c6e3-40c8-9fc3-d04347184a04}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="InputHandling.cpp">
@@ -48,7 +54,7 @@
     <ClCompile Include="Player.cpp">
       <Filter>PlayerObject</Filter>
     </ClCompile>
-    <ClCompile Include="GameControl.cpp">
+    <ClCompile Include="GameEntry.cpp">
       <Filter>GameLoop</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
@@ -66,9 +72,6 @@
     <ClCompile Include="Item.cpp">
       <Filter>Item</Filter>
     </ClCompile>
-    <ClCompile Include="WeightedPool.cpp">
-      <Filter>OftenUsed</Filter>
-    </ClCompile>
     <ClCompile Include="Enemy.cpp">
       <Filter>Enemy</Filter>
     </ClCompile>
@@ -81,10 +84,13 @@
     <ClCompile Include="RoomData.cpp">
       <Filter>Room</Filter>
     </ClCompile>
-    <ClCompile Include="SelectRandomRoom.cpp">
-      <Filter>GameLoop</Filter>
-    </ClCompile>
     <ClCompile Include="SelectRandomEnemy.cpp">
+      <Filter>GameLoop\GenerateRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectRandomRoom.cpp">
+      <Filter>GameLoop\GenerateRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="GameControl.cpp">
       <Filter>GameLoop</Filter>
     </ClCompile>
   </ItemGroup>
@@ -122,11 +128,20 @@
     <ClInclude Include="RoomData.h">
       <Filter>Room</Filter>
     </ClInclude>
+    <ClInclude Include="SelectRandomEnemy.h">
+      <Filter>GameLoop\GenerateRoom</Filter>
+    </ClInclude>
     <ClInclude Include="SelectRandomRoom.h">
+      <Filter>GameLoop\GenerateRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntry.h">
       <Filter>GameLoop</Filter>
     </ClInclude>
-    <ClInclude Include="SelectRandomEnemy.h">
+    <ClInclude Include="GameControl.h">
       <Filter>GameLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleMechanic.h">
+      <Filter>GameLoop\BattleMechanic</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
