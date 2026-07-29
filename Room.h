@@ -1,8 +1,8 @@
 #pragma once
 
 #include<vector>
-#include "EnemyType.h"
 #include<iostream>
+#include "EnemyData.h"
 
 struct RoomEnemy {
 	EnemyType enemy;

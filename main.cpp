@@ -3,8 +3,6 @@
 #include<vector>
 #include "UmbrellaHeader.h"
 #include "Inventory.h"
-#include "EnemyType.h"
-#include "EnemyFactory.h"
 #include "GameEntry.h"
 
 int main() {

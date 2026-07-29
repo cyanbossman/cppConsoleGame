@@ -141,6 +141,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="EnemyData.cpp" />
     <ClCompile Include="EnemyFactory.cpp" />
     <ClCompile Include="Equipment.cpp" />
     <ClCompile Include="GameControl.cpp" />
@@ -160,8 +161,8 @@
   <ItemGroup>
     <ClInclude Include="BattleMechanic.h" />
     <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyData.h" />
     <ClInclude Include="EnemyFactory.h" />
-    <ClInclude Include="EnemyType.h" />
     <ClInclude Include="GameControl.h" />
     <ClInclude Include="GameEntry.h" />
     <ClInclude Include="InputHandling.h" />

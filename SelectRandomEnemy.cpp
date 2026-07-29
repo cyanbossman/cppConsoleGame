@@ -6,6 +6,8 @@ EnemyType SelectRandomEnemy(const RoomData& ChosenRoom) {
 		pool.add(enemy, enemy.weight);
 	};
 
-	const RoomEnemy& rolledEnemy = pool.roll();
-	return rolledEnemy.enemy;
+	return pool.roll().enemy;
 }
+//	const RoomEnemy& rolledEnemy = pool.roll();
+//	return rolledEnemy.enemy;
+//}

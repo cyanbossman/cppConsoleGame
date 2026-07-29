@@ -1,8 +1,6 @@
 #pragma once
 
-#include "EnemyType.h"
+#include "EnemyData.h"
 #include "Enemy.h"
 
-namespace EnemyFactory {
-	Enemy create(EnemyType type);
-}
+Enemy create(EnemyType type);

@@ -93,6 +93,9 @@
     <ClCompile Include="GameControl.cpp">
       <Filter>GameLoop</Filter>
     </ClCompile>
+    <ClCompile Include="EnemyData.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player.h">
@@ -114,9 +117,6 @@
       <Filter>OftenUsed</Filter>
     </ClInclude>
     <ClInclude Include="Enemy.h">
-      <Filter>Enemy</Filter>
-    </ClInclude>
-    <ClInclude Include="EnemyType.h">
       <Filter>Enemy</Filter>
     </ClInclude>
     <ClInclude Include="EnemyFactory.h">
@@ -142,6 +142,9 @@
     </ClInclude>
     <ClInclude Include="BattleMechanic.h">
       <Filter>GameLoop\BattleMechanic</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyData.h">
+      <Filter>Enemy</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
