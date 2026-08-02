@@ -3,6 +3,8 @@
 #include<vector>
 #include<string>
 #include<typeindex>
+//#include "SkillData.h"
+#include "Skill.h"
 
 enum class EnemyType {
 	Goblin,
@@ -16,7 +18,7 @@ struct EnemyData {
 	std::string name;
 	int hp;
 	int atk;
-	//implement inventory vector of unique nullptrs after refactor
+	std::vector<SkillType> skills;
 };
 
 extern const std::vector<EnemyData> enemies;

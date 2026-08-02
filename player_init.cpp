@@ -9,6 +9,7 @@ void initializePlayer(Player& player) {
 
 	std::cout << "What is your name?\n";
 	std::cin >> Name;
+	player.SetName(Name);
 
 	while (true) {
 
@@ -31,8 +32,9 @@ void initializePlayer(Player& player) {
 	};
 
 	ClassChoice -= 1;
-	player.playerclass = Classes[ClassChoice];
-	BaseStats = Classes[ClassChoice].stats;
-	std::cout << "You have chosen to play as '" << player.playerclass.name << "', " << Name << "\n";
+	player.SetPlayerClass(Classes[ClassChoice]);
+	player.SetPlayerStats(Classes[ClassChoice].stats);
+	std::cout << "You have chosen to play as '" << player.GetPlayerClass().name << "', " << Name << "\n";
+	player.SetSkills(SkillType::Punch);
 	return;
 };
