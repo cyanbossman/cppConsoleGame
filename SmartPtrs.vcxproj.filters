@@ -28,9 +28,6 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="OftenUsed">
-      <UniqueIdentifier>{5205bf4a-92de-4218-8d2e-01b591420042}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Enemy">
       <UniqueIdentifier>{5dbd93e6-8ec2-4a34-86d3-1e02d583079a}</UniqueIdentifier>
     </Filter>
@@ -42,6 +39,15 @@
     </Filter>
     <Filter Include="GameLoop\BattleMechanic">
       <UniqueIdentifier>{5c77a5ed-c6e3-40c8-9fc3-d04347184a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skills">
+      <UniqueIdentifier>{f34ab0df-8c5e-4a7d-9d65-c938786a02c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WeightedPoolTemplate">
+      <UniqueIdentifier>{5205bf4a-92de-4218-8d2e-01b591420042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StatDefinition">
+      <UniqueIdentifier>{e3e219e0-db8d-4e87-b456-774556799489}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -96,6 +102,12 @@
     <ClCompile Include="EnemyData.cpp">
       <Filter>Enemy</Filter>
     </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillData.cpp">
+      <Filter>Skills</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player.h">
@@ -114,7 +126,7 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="WeightedPool.h">
-      <Filter>OftenUsed</Filter>
+      <Filter>WeightedPoolTemplate</Filter>
     </ClInclude>
     <ClInclude Include="Enemy.h">
       <Filter>Enemy</Filter>
@@ -145,6 +157,15 @@
     </ClInclude>
     <ClInclude Include="EnemyData.h">
       <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="StatDefinition.h">
+      <Filter>StatDefinition</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillData.h">
+      <Filter>Skills</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

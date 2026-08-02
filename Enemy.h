@@ -11,8 +11,7 @@ public:
 		name(data.name),
 		hp(data.hp),
 		atk(data.atk)
-	{
-	}
+	{ }
 
 	const std::string& GetName() const { return name; }
 	int GetHp() const { return hp; }

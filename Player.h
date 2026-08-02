@@ -2,12 +2,7 @@
 #include<iostream>
 #include<array>
 #include "Inventory.h"
-
-const struct Stats {
-	int hp;
-	int atk;
-	int def;
-};
+#include "StatDefinition.h"
 
 struct PlayerClass {
 	const char* name;

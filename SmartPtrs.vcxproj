@@ -156,6 +156,8 @@
     <ClCompile Include="RoomData.cpp" />
     <ClCompile Include="SelectRandomEnemy.cpp" />
     <ClCompile Include="SelectRandomRoom.cpp" />
+    <ClCompile Include="Skill.cpp" />
+    <ClCompile Include="SkillData.cpp" />
     <ClCompile Include="UmbrellaHeader.h" />
   </ItemGroup>
   <ItemGroup>
@@ -174,6 +176,9 @@
     <ClInclude Include="RoomData.h" />
     <ClInclude Include="SelectRandomEnemy.h" />
     <ClInclude Include="SelectRandomRoom.h" />
+    <ClInclude Include="Skill.h" />
+    <ClInclude Include="SkillData.h" />
+    <ClInclude Include="StatDefinition.h" />
     <ClInclude Include="WeightedPool.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
