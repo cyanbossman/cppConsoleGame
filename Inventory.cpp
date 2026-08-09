@@ -13,12 +13,24 @@ void Inventory::printInventory() {
 	};
 };
 
-bool Inventory::addItem(std::unique_ptr<Item> item) {
-	for (std::size_t i = 0; i < inventorySlots.size(); i++) {
-		if (inventorySlots[i] == nullptr) {
-			inventorySlots[i] = std::move(item);
+bool Inventory::addItem(std::size_t index, RoomContainer& container){
+	if(index >= container.room_containerSlots.size()){
+		return false;
+	};
+	
+	for (auto& slot : inventorySlots) {
+		if (slot == nullptr) {
+			slot = container.moveItem(index);
 			return true;
-		}
+		};
 	};
 	return false;
+};
+
+bool Inventory::removeItem(std::size_t index, RoomContainer& container) {
+	if (index >= inventorySlots.size() || inventorySlots[index] == nullptr) {
+		return false;
+	};
+
+	return container.addItem(std::move(inventorySlots[index]));
 };

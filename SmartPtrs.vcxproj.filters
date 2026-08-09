@@ -108,6 +108,9 @@
     <ClCompile Include="SkillData.cpp">
       <Filter>Skills</Filter>
     </ClCompile>
+    <ClCompile Include="ItemData.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player.h">
@@ -167,5 +170,11 @@
     <ClInclude Include="SkillData.h">
       <Filter>Skills</Filter>
     </ClInclude>
+    <ClInclude Include="ItemData.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="z_notes.md" />
   </ItemGroup>
 </Project>

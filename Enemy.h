@@ -2,7 +2,8 @@
 #include<string>
 #include<vector>
 #include "EnemyData.h"
-//#include "Item.h" - ItemType?
+//#include "Item.h" 
+// - ItemType?
 
 
 class Enemy {

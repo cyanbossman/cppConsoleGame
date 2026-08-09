@@ -1,6 +1,6 @@
 #pragma once
 #include<string>
-
+#include "StatDefinition.h"
 
 enum class ItemType {
 	Weapon,
@@ -12,7 +12,7 @@ enum class ItemType {
 
 class Item {
 public:
-	Item(std::string Name, int Value, ItemType itemtype);
+	Item(std::string Name, ItemType itemtype, int Value);
 	std::string getName() const;
 	int getValue() const;
 	ItemType getItemType() const;

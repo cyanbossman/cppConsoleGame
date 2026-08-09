@@ -1,5 +1,5 @@
 # Rogue-like dungeon crawler (console game)
-### Small turn based console game, featuring random room selection from weighted pools...
+### Small turn based console game, featuring random room selection from weighted pools, inventory system and the foundation of loot system
 ###### ^ Very much a work in progress, will update this as features gets added
 
 This is my first shot at C++, besides some minor single-file exercises.  

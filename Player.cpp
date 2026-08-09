@@ -9,6 +9,8 @@ extern const std::array<PlayerClass, 3> Classes{
 };
 
 //Should be a template to handle both enemy and player inside its own file!
+//^no idea what i meant here, will investigate later
+
 
 void Player::CalculateStats() {
 	//Logic for additional modifiers planned

@@ -1,7 +1,7 @@
 #include<iostream>
 #include "Item.h"
 
-Item::Item(std::string Name, int Value, ItemType itemtype) :
+Item::Item(std::string Name, ItemType itemtype, int Value) :
 	m_name{ Name },
 	m_value{ Value },
 	m_itemtype{ itemtype }
