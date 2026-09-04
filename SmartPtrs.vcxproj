@@ -156,6 +156,7 @@
     <ClCompile Include="Room.cpp" />
     <ClCompile Include="RoomData.cpp" />
     <ClCompile Include="SelectRandomEnemy.cpp" />
+    <ClCompile Include="LootFactory.cpp" />
     <ClCompile Include="SelectRandomRoom.cpp" />
     <ClCompile Include="Skill.cpp" />
     <ClCompile Include="SkillData.cpp" />
@@ -177,6 +178,7 @@
     <ClInclude Include="Room.h" />
     <ClInclude Include="RoomData.h" />
     <ClInclude Include="SelectRandomEnemy.h" />
+    <ClInclude Include="LootFactory.h" />
     <ClInclude Include="SelectRandomRoom.h" />
     <ClInclude Include="Skill.h" />
     <ClInclude Include="SkillData.h" />

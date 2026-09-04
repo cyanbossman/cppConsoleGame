@@ -5,6 +5,7 @@
 #include<iostream>
 #include "EnemyData.h"
 #include "Item.h"
+#include <memory>
 
 struct RoomEnemy {
 	EnemyType enemy;
@@ -19,6 +20,7 @@ struct RoomData {
 
 struct RoomContainer {
 	void printContainer();
+	bool isFull();
 	bool addItem(std::unique_ptr<Item>&& item);
 	std::unique_ptr<Item> moveItem(std::size_t index); 
 	std::array<std::unique_ptr<Item>, 10>room_containerSlots;

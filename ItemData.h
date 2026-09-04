@@ -4,4 +4,4 @@
 #include "Item.h"
 
 
-extern const std::vector<Item> item;
+extern const std::vector<Item> items;

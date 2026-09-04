@@ -12,6 +12,15 @@ void RoomContainer::printContainer() {
 	};
 };
 
+bool RoomContainer::isFull() {
+	for (std::size_t i = 0; i < room_containerSlots.size(); i++) {
+		if (!room_containerSlots[i]) {
+			return false;
+		}
+	}
+	return true;
+};
+
 bool RoomContainer::addItem(std::unique_ptr<Item>&& item) {
 	for (auto& slot : room_containerSlots) {
 		if (slot == nullptr) {
@@ -29,3 +38,4 @@ std::unique_ptr<Item> RoomContainer::moveItem(std::size_t index) {
 	}
 	return std::move(room_containerSlots[index]);
 };
+

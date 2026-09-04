@@ -1,3 +1,15 @@
+****************************
+
+04-09-2026:
+Returned after holidays.
+
+Room inventory is more or less ready for the further implementation of Inventory.
+Loot-factory basic idea is more or less done, but should include container-specific generation later.
+ - Should also include generic common loot besides the gear drops (which shouldn't be a guarantee).
+
+I think it's time to finally orchestrate the systems into a functional gameplay loop. 
+
+Systems-planning below is still relevant though!!!
 
 ****************************
 

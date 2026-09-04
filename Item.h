@@ -12,13 +12,15 @@ enum class ItemType {
 
 class Item {
 public:
-	Item(std::string Name, ItemType itemtype, int Value);
+	Item(std::string Name, ItemType itemtype, Stats Stat, int weight);
 	std::string getName() const;
-	int getValue() const;
 	ItemType getItemType() const;
+	Stats getStat() const;
+	int getWeight() const;
 
 private:
 	std::string m_name;
-	int m_value;
 	ItemType m_itemtype;
+	Stats m_stat;
+	int m_weight;
 };
