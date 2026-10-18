@@ -21,6 +21,10 @@ void Player::printInventory() {
 	m_inventory.printInventory();
 }
 
+void Player::addItem(std::unique_ptr<Item> item) {
+	m_inventory.addItem(std::move(item)); 
+}
+
 void Player::SetSkills(SkillType skill) {
 	m_skills.push_back(skill);
 };

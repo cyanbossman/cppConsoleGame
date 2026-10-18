@@ -11,7 +11,7 @@ class Inventory {
 public: 
 
 	void printInventory();
-	bool addItem(std::size_t index, RoomContainer& container);
+	bool addItem(std::unique_ptr<Item> item);
 	bool removeItem(std::size_t index, RoomContainer& container); //is a problem bcs of non-generic containers - need to transfer to specific container type 
 	
 private:

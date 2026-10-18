@@ -52,6 +52,9 @@
     <Filter Include="GameLoop\GenerateLoot">
       <UniqueIdentifier>{db2aae0c-7e97-439d-bc2a-94c1b3e89412}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UnitTests">
+      <UniqueIdentifier>{91b4afbb-64e4-4417-bd2f-c987fd6cc29b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="InputHandling.cpp">
@@ -117,6 +120,9 @@
     <ClCompile Include="LootFactory.cpp">
       <Filter>GameLoop\GenerateLoot</Filter>
     </ClCompile>
+    <ClCompile Include="RoomLootTest.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player.h">
@@ -181,6 +187,9 @@
     </ClInclude>
     <ClInclude Include="LootFactory.h">
       <Filter>GameLoop\GenerateLoot</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomLootTest.h">
+      <Filter>UnitTests</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

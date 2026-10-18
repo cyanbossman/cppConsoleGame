@@ -43,7 +43,7 @@ public:
 	
 	void CalculateStats();
 	void printInventory();
-
+	void addItem(std::unique_ptr<Item> item);
 
 	void TakeDamage(int amount);
 

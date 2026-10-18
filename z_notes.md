@@ -1,3 +1,18 @@
+18-10-2026:
+Been a while
+
+Made a unit test for picking up room-container loot and moving the unique_ptr to inventory. Works!
+	*RoomContainer should really be doumbed down, player inventory should hold all logic instead.
+	*Next step is prolly to add random chance for extra loot, e.g. gold chest mechanic.
+
+It is basically ready for implementation into a gameplay loop as is.
+Should really focus on enemies and battle mechanic next - inventory and loot will work. 
+
+Just noticed that instead of creating the weighted pools from scratch in every factory, i should let them be
+created once the first time. This would require a unique collection for each type of roll (e.g. enemy, room,
+loot ect). If this is done once the first time the collections are created, they can be reused every time 
+afterwards. 
+
 ****************************
 
 04-09-2026:
