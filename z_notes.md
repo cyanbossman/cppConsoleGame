@@ -1,3 +1,25 @@
+21-10-2026:
+quickNote
+
+I already have the rollable pools defined in xData files, so i could just pass the entire pool
+instead of walking the objects each time. Probably the quickest solution to unnecessary work. 
+
+I expanded the previous test to include moving items from inventory -> roomContainer - it works.
+The BattleMechanic is being sketched out. Wasn't sure what to implement first (attack logic, rolls ect), so
+i will just implement what i need for each step of BattleMechanic in that order.
+
+Refined the Player object with ActHp (current hp) and exposed a TakeDamage api. Next step is a simple 
+"Attack" method, which should interact with the opponents "ActHp" value and vice versa. 
+
+For the attack logic prototype, it should include random rolls aggregated from stats, gear modifiers and 
+skill modifiers. Probably the thing i'm most exited to implement, so will prolly take a while, when factoring
+in the need to refine "Skills", "Equipment" and dmg calculations (crit? speed? Weaknesses / buffs?)
+
+
+
+
+****************************
+
 18-10-2026:
 Been a while
 

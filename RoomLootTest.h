@@ -13,4 +13,4 @@ void GenerateLootTest(Player &player);
 
 void grabItem(Room& room, Player& player);
 
-void printInv(Player& player);
+void printInv(Player& player, Room& room);

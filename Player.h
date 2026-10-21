@@ -24,8 +24,9 @@ public:
 
 	{
 		CalculateStats();
+		m_getActHp = m_stats.hp;
 	}
-	
+
 	void SetName(const std::string& name) {
 		m_name = name;
 	};
@@ -41,10 +42,11 @@ public:
 	const PlayerClass& GetPlayerClass() const {return m_playerClass;}
 	const std::vector<SkillType>& GetSkills() const { return m_skills; }
 	
+	int getActHp();
 	void CalculateStats();
 	void printInventory();
 	void addItem(std::unique_ptr<Item> item);
-
+	void removeItem(std::size_t index, RoomContainer& container);
 	void TakeDamage(int amount);
 
 private:
@@ -53,4 +55,5 @@ private:
 	PlayerClass m_playerClass;
 	Inventory m_inventory;
 	std::vector<SkillType> m_skills;
+	int m_getActHp;
 };

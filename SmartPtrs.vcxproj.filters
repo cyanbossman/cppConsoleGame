@@ -55,6 +55,9 @@
     <Filter Include="UnitTests">
       <UniqueIdentifier>{91b4afbb-64e4-4417-bd2f-c987fd6cc29b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GameLoop\PostBattle">
+      <UniqueIdentifier>{642c6082-3a9a-4d5b-be19-81a085cfe7a6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="InputHandling.cpp">
@@ -122,6 +125,9 @@
     </ClCompile>
     <ClCompile Include="RoomLootTest.cpp">
       <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleMechanic.cpp">
+      <Filter>GameLoop\BattleMechanic</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -9,8 +9,9 @@
 int main() {
 	Player player;
 	initializePlayer(player);
-	//GameEntry(player);
+	GameEntry(player);
 
-	GenerateLootTest(player);
+	//UnitTests:
+	//GenerateLootTest(player);
 	return 0;
 }

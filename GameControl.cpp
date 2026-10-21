@@ -27,11 +27,13 @@ void GameLoop(Player& player) {
 
 		std::cout << "You entered '" << room.data.Name << "'.\n" << "You have encountered '" << enemy.GetName() << "'!\n";
 
-		//Just to visualize the concept
-		std::string input;
-		std::cout << "Press anything to attack!\n";
-		std::cin >> input;
-		std::cout << "OH-KO! You beat " << enemy.GetName() << "\n";
+		void runBattle(Player &player, Enemy &enemy);
+
+		////Just to visualize the concept
+		//std::string input;
+		//std::cout << "Press anything to attack!\n";
+		//std::cin >> input;
+		//std::cout << "OH-KO! You beat " << enemy.GetName() << "\n";
 
 		if (!room.container.isFull()) {
 			std::unique_ptr<Item> item = CreateLoot(items);
@@ -41,20 +43,4 @@ void GameLoop(Player& player) {
 	};
 }
 
-
-
-	//	std::unique_ptr<Item> item = CreateLoot(items);
-	//	if (room.container.addItem(std::move(CreateLoot(items)))) {
-	//	};
-
-		//refactor in progress, just for test
-	//	auto sword =  std::make_unique<Item> ("Sword", ItemType::Weapon, 10);
-	//	std::cout << "\n\n\n" << "-----RoomContainer-----\n";
-	//	room.container.printContainer();
-	//	if (room.container.addItem(std::move(sword))) {
-	//	std::cout << "\nSword has been added to the RoomContainer!\n\n";
-	//	};
-	//	std::cout << "\n" << "-----RoomContainer-----\n";
-	//	room.container.printContainer();
-	//};
 
