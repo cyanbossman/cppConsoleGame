@@ -26,8 +26,9 @@ void GameLoop(Player& player) {
 
 
 		std::cout << "You entered '" << room.data.Name << "'.\n" << "You have encountered '" << enemy.GetName() << "'!\n";
-
-		void runBattle(Player &player, Enemy &enemy);
+		int choice;
+		runBattle(player, enemy);
+		std::cin >> choice;
 
 		////Just to visualize the concept
 		//std::string input;

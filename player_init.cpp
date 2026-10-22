@@ -36,5 +36,6 @@ void initializePlayer(Player& player) {
 	player.SetPlayerStats(Classes[ClassChoice].stats);
 	std::cout << "You have chosen to play as '" << player.GetPlayerClass().name << "', " << Name << "\n";
 	player.SetSkills(SkillType::Punch);
+	player.SetSkills(SkillType::Kick);
 	return;
 };

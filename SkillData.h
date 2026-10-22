@@ -10,3 +10,4 @@
 
 extern const std::vector<Skill> skills;
 
+const Skill& getSkillDefinition(SkillType type);

@@ -12,6 +12,6 @@ int main() {
 	GameEntry(player);
 
 	//UnitTests:
-	//GenerateLootTest(player);
+	GenerateLootTest(player);
 	return 0;
 }

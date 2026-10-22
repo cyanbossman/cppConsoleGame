@@ -6,3 +6,11 @@ const std::vector<Skill> skills{
 	{SkillType::Kick, "Kick", Stats{0, 1, 0}},
 	{SkillType::SwingSword, "Swing sword", Stats{0, 5, 0}}
 };
+
+const Skill& getSkillDefinition(SkillType type){
+	for (const Skill& skill : skills) {
+		if (skill.getSkill() == type) {
+			return skill;
+		}
+	}
+}

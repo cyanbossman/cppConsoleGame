@@ -3,6 +3,8 @@
 #include "Player.h"
 #include "Enemy.h"
 #include "Item.h"
+#include "Skill.h"
+#include "SkillData.h"
 
 //   - outdated comment:
 //Battle mechanic should pull a random enemy from room pool.
@@ -11,5 +13,5 @@
 //Stats are a calculation of base stats and gear modifiers.
 //Damage calculations should be the aggregated stats + skill modifier, if any.
 
-
+//std::vector<Skill> playerSkills;
 void runBattle(Player& player, Enemy& enemy);
